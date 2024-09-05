@@ -28,4 +28,14 @@ show create databasa sklep; - pokaze sie
 show full columns from nazwa_tabeli from nazwa_bazy like 'szablon'; 
 
 instrukcja describe - dostarcza informacji o kolumnach w tabeli
+=================================================
+show columns from baza.tabela;  <== TO zastępuje nam
+show columns from tabela from baza;                  TO 
+=================================================
+
+drop database db_name; - usuwac/porzucac
+
+
+use data.db - uzyj jakiejs bazy
+
 
