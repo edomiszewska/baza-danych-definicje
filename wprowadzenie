@@ -1,0 +1,31 @@
+5 wrzesnia 2024
+-------------------------------
+php my admin, 127.0.0.1
+
+SHOW - pokaż
+show tables in nazwa_bazy; - pokaż tabele bazy
+show databases; - pokaze bazy danych
+- czy musi być srednik?
+- srednik w programowaniu konczy polecenie, w sqlu musi byc srednik
+
+
+kazda baza danych musi miec swoj schemat
+show schemas; - pokazuje schematy 
+
+use - użyj (bazy danych)
+use sklep; - mowi ze sklep jest pusty
+
+select schema_name from information_schema.schemata - liste bazy danych (schemat) mozna otrztnac z informacji o schematach
+
+show databases like `%sklep%`; - pokaz nazwy bazy danych gdzie z przodu i z tylu jest sklep
+%sklep - gdzie konczy sie na sklep
+sklep% - gdzie rozpoczyna sie od nazwy sklep
+
+show create database dupa; - nie utworzymy
+ale
+show create databasa sklep; - pokaze sie
+
+show full columns from nazwa_tabeli from nazwa_bazy like 'szablon'; 
+
+instrukcja describe - dostarcza informacji o kolumnach w tabeli
+
