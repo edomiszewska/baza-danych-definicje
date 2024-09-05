@@ -68,3 +68,5 @@ select database();
 
 show tables; - pokazal tabele bazy danych
 
+describe kategoria; - jak zbudowana jest tabela (w tym wypadku kategoria)
+
