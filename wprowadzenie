@@ -38,4 +38,9 @@ drop database db_name; - usuwac/porzucac
 
 use data.db - uzyj jakiejs bazy
 
+show index from nazwa_tabeli [from nazwa_bazy];  - tu zwroci nam informacje o indeksach 
+
+indeksowanie tabel/nadanie indeksu - ?
+
+za tydzień ćwiczenia, szybko stworzymy bazy danych!!!
 
