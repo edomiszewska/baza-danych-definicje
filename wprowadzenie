@@ -63,3 +63,8 @@ FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = 'db_name';
 
 -=-=-=-=-=-=-=-=-=-=-=-=
 
+mozemy sprawdzic w jakiej bazie danych jestesmy -
+select database(); 
+
+show tables; - pokazal tabele bazy danych
+
